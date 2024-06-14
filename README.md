@@ -23,9 +23,9 @@ A new partner can be added to the dashboard using the *New Partner* button, whic
 - Partner Logo Source: URL
 - Partner Description: text
 
-By default, partner's are inactive unless the *Active* checkbox on the form is checked.
+By default, partners are inactive unless the *Active* checkbox on the form is checked.
 
-Once the *Submit* button is clicked on a completed form, the new partner will show up in the dashboard.
+Once the *Submit* button is clicked on a completed form, the new partner will show up in the dashboard. The partners are stored using Node.js in-memory storage, so while the same server instance is open, all users will see the same information.
 
 Users are able to delete an individual organization's information card using the *Delete* button. 
 
