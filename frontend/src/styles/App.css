@@ -1,0 +1,130 @@
+/* 
+  ================
+  COMPONENT STYLES
+  ================
+*/
+
+/* MainDisplay */
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  padding: 20px 20px;
+  margin: auto;
+}
+
+#main-partners-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 25px;
+  gap: 25px;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 24pt;
+}
+
+/* PartnerTile */
+
+.partner-tile {
+  width: 450px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  border: 1px solid #ccc;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(95, 158, 160, 0.1);
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.partner-info {
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.partner-thumbnail {
+  width: 350px;
+  height: 125px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.partner-name {
+  font-size: 0.9em;
+  color: black;
+  font-weight: bold;
+}
+
+.partner-description {
+  font-size: 0.9em;
+  color: black;
+  padding-top: 1em;
+  overflow: auto;
+  height: 200px;
+}
+
+.partner-active {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: cadetblue;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: wrap;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 1em;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(95, 158, 160, 0.1);
+  align-items: first baseline;
+  gap: 1em;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #333333;
+  font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 1em;
+  background-color: rgba(95, 158, 160, 0.178);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  flex: 1;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 0.5em;
+}
